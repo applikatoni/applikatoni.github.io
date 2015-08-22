@@ -7,3 +7,8 @@ body {
   float: left;
   margin-right: 20px;
 }
+
+#screenshot-overview {
+  position: relative;
+  top: -55px;
+}
