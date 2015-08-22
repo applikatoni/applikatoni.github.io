@@ -1,0 +1,4 @@
+name: Applikatoni
+domain: applikatoni.com
+markdown: redcarpet
+highlighter: pygments
