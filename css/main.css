@@ -22,3 +22,14 @@ body {
   position: relative;
 }
 
+.app-title {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  top: -53px;
+  left: 0;
+  color: #868484;
+}
+
