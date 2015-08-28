@@ -11,4 +11,9 @@ body {
 #screenshot-overview {
   position: relative;
   top: -55px;
+  border: 2px lightgrey solid;
+  border-top: 18px lightgrey solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }
