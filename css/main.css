@@ -33,3 +33,15 @@ body {
   color: #868484;
 }
 
+.circle {
+  position: absolute;
+  top: -51px;
+  z-index: 99;
+  height: 11px;
+  width: 11px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+
