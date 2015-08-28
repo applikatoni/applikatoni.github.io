@@ -44,4 +44,8 @@ body {
   -moz-border-radius: 100px;
 }
 
+.red {
+  background: #f25f64;
+  left: 22px;
+}
 
