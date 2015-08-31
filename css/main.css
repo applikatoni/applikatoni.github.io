@@ -3,6 +3,21 @@ body {
     padding-bottom: 20px;
 }
 
+#brand {
+  height: 45px;
+  margin-top: -9px;
+  border: 1px solid #868484;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+  #brand {
+    margin-top: -12px;
+  }
+}
+
 #logo-frontpage {
   float: left;
   margin-right: 20px;
@@ -11,4 +26,59 @@ body {
 #screenshot-overview {
   position: relative;
   top: -55px;
+  border: 2px lightgrey solid;
+  border-top: 18px lightgrey solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.container.text-center {
+  position: relative;
+}
+
+.app-title {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  top: -53px;
+  left: 0;
+  color: #868484;
+}
+
+.circle {
+  position: absolute;
+  top: -51px;
+  z-index: 99;
+  height: 11px;
+  width: 11px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.red {
+  background: #f25f64;
+  left: 22px;
+}
+
+.yellow {
+  background: #fab758;
+  left: 39px;
+}
+
+.green {
+  background: #42b75b;
+  left: 56px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 8px;
 }
