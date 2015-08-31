@@ -5,11 +5,17 @@ body {
 
 #brand {
   height: 45px;
-  margin-top: -12px;
+  margin-top: -9px;
   border: 1px solid #868484;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+  #brand {
+    margin-top: -12px;
+  }
 }
 
 #logo-frontpage {
