@@ -73,12 +73,3 @@ body {
   background: #42b75b;
   left: 56px;
 }
-
-ul {
-  padding-left: 15px;
-}
-
-ul li {
-  list-style-type: none;
-  margin-bottom: 8px;
-}
