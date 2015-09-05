@@ -23,7 +23,7 @@ body {
   margin-right: 20px;
 }
 
-#screenshot-overview {
+.demo-screenshot {
   position: relative;
   top: -55px;
   border: 2px lightgrey solid;
@@ -35,17 +35,6 @@ body {
 
 .screenshot-container {
   position: relative;
-}
-
-.app-title {
-  position: absolute;
-  z-index: 99;
-  width: 100%;
-  text-align: center;
-  font-size: 11px;
-  top: -53px;
-  left: 0;
-  color: #868484;
 }
 
 .circle {
