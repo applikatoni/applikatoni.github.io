@@ -24,6 +24,13 @@ body {
   background-size: 10%;
 }
 
+@media (max-width: 767px) {
+  .jumbotron {
+    background-size: 40%;
+  }
+}
+
+
 #logo-frontpage {
   float: left;
   margin-right: 20px;
