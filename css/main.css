@@ -6,6 +6,7 @@ body {
 #brand {
   height: 45px;
   margin-top: -9px;
+  background: white;
   border: 1px solid #868484;
   border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -18,9 +19,29 @@ body {
   }
 }
 
+.jumbotron {
+  background-image: url('/img/jumbotron_bg.png');
+  background-size: 10%;
+}
+
 #logo-frontpage {
   float: left;
   margin-right: 20px;
+}
+
+.btn-primary {
+  background: #d6292d;
+  border-color: #b82327;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+  background: #b82327;
+  border-color: #9d1e21;
+}
+
+.btn-primary:active, .btn-primary:active:focus, .btn-primary:active:hover {
+  background: #9d1e21;
+  border-color: #7a171a;
 }
 
 .demo-screenshot {
@@ -35,6 +56,31 @@ body {
 
 .screenshot-container {
   position: relative;
+  width: 80%;
+  max-width: 800px; /* with of the gif */
+}
+
+.thumbnails li {
+  max-width: 33%;
+}
+
+@media (max-width: 767px) {
+  .thumbnails li {
+    max-width: 32%;
+  }
+}
+
+
+.thumbnails li img {
+  border: 2px lightgrey solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  max-width: 100%;
+}
+
+dd {
+  margin-bottom: 15px;
 }
 
 .circle {
@@ -50,15 +96,15 @@ body {
 
 .red {
   background: #f25f64;
-  left: 22px;
+  left: 6px;
 }
 
 .yellow {
   background: #fab758;
-  left: 39px;
+  left: 22px;
 }
 
 .green {
   background: #42b75b;
-  left: 56px;
+  left: 38px;
 }

@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8">
-        <img id="logo-frontpage" class="hidden-xs hidden-sm" src="https://s3.eu-central-1.amazonaws.com/applikatoni/assets/logo_big.png">
+        <img id="logo-frontpage" class="hidden-xs hidden-sm" src="https://s3.eu-central-1.amazonaws.com/applikatoni/assets/logo_big.png" />
         <h1>Applikatoni</h1>
         <em class="h3 text-muted">Deployments al forno</em>
         <h2>An open-source, technology agnostic deployment server.</h2>
@@ -17,25 +16,48 @@ layout: default
   </div>
 </div>
 
-<div class="hidden-xs container-fluid screenshot-container text-center">
+<div class="hidden-xs container-fluid">
   <div class="row">
-    <div class="col-sm-offset-1 col-sm-10 col-lg-offset-3 col-lg-7">
+    <div class="center-block screenshot-container">
       <div class="circle red"></div>
       <div class="circle yellow"></div>
       <div class="circle green"></div>
       <div class="img-container">
         <a href="/img/deployment_large.gif">
-          <img class="img-responsive demo-screenshot" src="/img/deployment_small.gif">
+          <img class="img-responsive demo-screenshot" src="/img/deployment_small.gif" />
         </a>
       </div>
     </div>
   </div>
 </div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="thumbnails center-block screenshot-container">
+      <ul class="list-inline">
+        <li>
+          <a href="img/landingpage_overview.png" title="Landing Page">
+            <img src="img/landingpage_overview_thumbnail.png" />
+          </a>
+        </li>
+        <li>
+          <a href="img/deployment_view.png" title="Deployment View">
+            <img src="img/deployment_view_thumbnail.png" />
+          </a>
+        </li>
+        <li>
+          <a href="img/toni_cli.png" title="Toni, the Applikatoni CLI">
+            <img src="img/toni_cli_thumbnail.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-offset-2 col-md-8">
       <h2>Features</h2>
       <dl>
         <dt>Self-Hosted:</dt><dd>No need to give third party access to your servers or your data</dd>
@@ -52,8 +74,7 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-offset-2 col-md-8">
       <h2>Third-Party Integration</h2>
       <dl>
         <dt>Travis CI</dt><dd>See the CI status of your branches and pull requests before deploying</dd>
@@ -66,10 +87,9 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-offset-2 col-md-8 text-center">
       <h2>Developed at</h2>
-      <p class="text-center">
+      <p>
         <a href="https://flinc.org">
           <img height="200" width="200" style="padding: 5px;" src="https://s3.eu-central-1.amazonaws.com/applikatoni/assets/flinc_logo.png">
         </a>
